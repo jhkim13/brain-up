@@ -1,0 +1,3 @@
+# build 파일, IDE 설정파일 제외
+draconian00/build
+.vscode
