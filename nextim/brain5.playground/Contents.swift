@@ -39,7 +39,7 @@ for i in stride(from: 0, through: coin500Cnt, by: 1) {
             print("100 error!")
         }
         
-        for k in stride(from: 0, to: coin50Cnt, by: 1) {
+        for k in stride(from: 0, through: coin50Cnt, by: 1) {
             let total3 = total2 + k * coin50
             
             if (total3 == money) {
@@ -51,7 +51,7 @@ for i in stride(from: 0, through: coin500Cnt, by: 1) {
                 print("error!")
             }
 
-            for l in stride(from: 0, to: coin10Cnt, by: 1){
+            for l in stride(from: 0, through: coin10Cnt, by: 1){
                 let total4 = total3 + l * coin10
                 
                 if (total4 == money) {
